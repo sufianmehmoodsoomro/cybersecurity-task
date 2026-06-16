@@ -1,0 +1,5 @@
+{"timestamp":"2026-06-16T05:03:24.503Z","event":"FAILED_LOGIN","ip":"::1","username":"admin"}
+{"timestamp":"2026-06-16T05:03:29.352Z","event":"FAILED_LOGIN","ip":"::1","username":"admin"}
+{"timestamp":"2026-06-16T05:03:30.571Z","event":"FAILED_LOGIN","ip":"::1","username":"admin"}
+{"timestamp":"2026-06-16T05:03:31.600Z","event":"FAILED_LOGIN","ip":"::1","username":"admin"}
+{"timestamp":"2026-06-16T05:03:32.539Z","event":"FAILED_LOGIN","ip":"::1","username":"admin"}
