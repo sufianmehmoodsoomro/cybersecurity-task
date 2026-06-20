@@ -2,7 +2,7 @@
 # Week 4 — Advanced Threat Detection & Web Security
 
 **Internship:** Developers Hub | Cybersecurity Track  
-**Intern:** [Your Name]  
+**Intern:** Sufian Mehmood  
 **Deadline:** 30th June, 2026
 
 ---
