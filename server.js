@@ -140,6 +140,10 @@ app.use('/api/', generalLimiter);
 // ─────────────────────────────────────────────
 // 6. ROUTES
 // ─────────────────────────────────────────────
+const { zeroTrustMiddleware } = require('./middleware/zeroTrust');
+const { wafMiddleware } = require('./middleware/waf');
+app.use(wafMiddleware);
+app.use('/api/', zeroTrustMiddleware);
 const authRoutes = require('./routes/auth');
 const apiRoutes = require('./routes/api');
 

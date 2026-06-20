@@ -1,0 +1,1 @@
+{"timestamp":"2026-06-20T05:15:48.876Z","type":"MALICIOUS_PATTERN","ip":"::1","url":"/api/sqli/vulnerable?username='%20OR%20'1'='1"}
