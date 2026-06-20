@@ -147,6 +147,8 @@ app.use('/api/auth', loginLimiter, authRoutes);
 app.use('/api/data', apiRoutes);
 const sqliRoutes = require('./routes/sqli');
 app.use('/api/sqli', sqliRoutes);
+const csrfRoutes = require('./routes/csrf');
+app.use('/api/csrf', csrfRoutes);
 
 // Health check (no auth needed)
 app.get('/health', (req, res) => {

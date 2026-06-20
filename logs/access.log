@@ -1,0 +1,4 @@
+::1 - - [20/Jun/2026:04:28:02 +0000] "GET /api/sqli/safe?username=admin HTTP/1.1" 200 314 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
+::1 - - [20/Jun/2026:04:28:42 +0000] "GET /api/sqli/vulnerable?username='%20OR%20'1'='1 HTTP/1.1" 200 615 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
+::1 - - [20/Jun/2026:04:33:27 +0000] "GET /api/csrf/token HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
+::1 - - [20/Jun/2026:04:35:12 +0000] "GET /api/csrf/token HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
