@@ -2,3 +2,8 @@
 ::1 - - [20/Jun/2026:04:28:42 +0000] "GET /api/sqli/vulnerable?username='%20OR%20'1'='1 HTTP/1.1" 200 615 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
 ::1 - - [20/Jun/2026:04:33:27 +0000] "GET /api/csrf/token HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
 ::1 - - [20/Jun/2026:04:35:12 +0000] "GET /api/csrf/token HTTP/1.1" 404 153 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
+::1 - - [20/Jun/2026:04:37:03 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+::1 - - [20/Jun/2026:04:37:05 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+::1 - - [20/Jun/2026:04:37:26 +0000] "GET /api/csrf/token HTTP/1.1" 200 90 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.8328"
+::1 - - [20/Jun/2026:04:37:35 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+::1 - - [20/Jun/2026:04:37:36 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
